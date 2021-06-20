@@ -1,0 +1,1812 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Truong Tien - My Project Front End 1</title>
+    <link rel="shortcut icon" href="./public/images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./public/css/fontawesome-free-5.15.3-web/css/all.min.css" />
+    <link rel="stylesheet" href="./public/css/bootstrap-5.0.1-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./public/css/owl-carousel/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./public/css/owl-carousel/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="./public/css/style.css" />
+</head>
+
+<body>
+    <div id="loader">
+        <div class="loader-rela">
+            <img src="./public/images/kloader.png" class="pinwheel" alt="pinwheel" >
+            <img src="./public/images/103.gif" class="loading" alt="loading" >
+        </div>
+      </div>
+    <!-- # header-->
+    <header id="header">
+        <!-- Nav top -->
+        <div class="header-nav-top d-none d-xl-block">
+            <div class="container">
+                <div class="row">
+                    <div class="section-left col-lg-6">
+                        <div class="nav-top-section">
+                            <div class="dropdown-main" data-active="#select-language">
+                                <div class="dropdown-label hover-green">
+                                    <img src="./public/images/img_language/1.jpg" alt="English" />
+                                    <span> English</span>
+                                    <i class="fas fa-angle-down
+                                            hover-green"></i>
+                                </div>
+                                <div class="dropdown-menu" id="select-language">
+                                    <ul>
+                                        <li class="hover-green">
+                                            <img src="./public/images/img_language/1.jpg" alt="English" />
+                                            English
+                                        </li>
+                                        <li class="hover-green">
+                                            <img src="./public/images/img_language/3.jpg" alt="Français" />
+                                            Français
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav-top-section">
+                            <div class="dropdown-main" data-active="#select-money">
+                                <div class="dropdown-label hover-green">
+                                    <span> USD $</span>
+                                    <i class="fas fa-angle-down
+                                            hover-green"></i>
+                                </div>
+                                <div class="dropdown-menu" id="select-money">
+                                    <ul>
+                                        <li class="hover-green">EUR €</li>
+                                        <li class="hover-green">USD $</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-right col-lg-6">
+                        <div class="nav-top-section">
+                            <a href="mailto:#" class="hover-green">
+                                <i class="far fa-envelope"></i>
+                                Support@posthemes.com
+                            </a>
+                        </div>
+                        <div class="nav-top-section">
+                            <a href="#" class="hover-green">
+                                <i class="fas fa-map-marker-alt"></i> Store
+                                Locator
+                            </a>
+                        </div>
+                        <div class="nav-top-section">
+                            <div class="dropdown-main" data-active="#select-account">
+                                <div class="dropdown-label hover-green">
+                                    <i class="far fa-user"></i>
+                                    <span> My Account</span>
+                                    <i class="fas fa-angle-down
+                                            hover-green"></i>
+                                </div>
+                                <div class="dropdown-menu" id="select-account">
+                                    <ul>
+                                        <li class="hover-green">My Account</li>
+                                        <li class="hover-green">Checkout</li>
+                                        <li class="hover-green">Sign in</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Nav bottom -->
+        <nav class="nav-bottom">
+            <div class="container">
+                <div class="row justify-content-md-center">
+                    <div class="mobile-nav col-3 d-block d-xl-none">
+                        <div class="menu-icon">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                        <div class="menu-mobile">
+                            <div class="top-nav-mobile">
+                                <div class="section-top text-center">
+                                    <a href="mailto:#" class="hover-green">
+                                        <i class="far fa-envelope"></i>
+                                        Support@posthemes.com
+                                    </a>
+                                </div>
+                                <div class="section-top text-center">
+                                    <a href="#" class="hover-green">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        Store Locator
+                                    </a>
+                                </div>
+                                <div class="section-top text-center">
+                                    <a class="" href="#">
+                                        <i class="icon-heart"></i>
+                                        <span class="txt_wishlist">Wishlist</span>
+                                        <span class="cart-wishlist-number">0</span>
+                                    </a>
+                                </div>
+                                <div class="dropdown-mobile mt-4">
+                                    <div class="dropdown-label hover-green
+                                            section-menu-mobile">
+                                        <span> USD $</span>
+                                        <i class="fas fa-angle-down
+                                                float-end"></i>
+                                    </div>
+                                    <div class="show-menu">
+                                        <ul>
+                                            <li class="hover-green
+                                                    section-menu-mobile">
+                                                <a href="#">USD $</a>
+                                            </li>
+                                            <li class="hover-green
+                                                    section-menu-mobile">
+                                                <a href="#">EUR €</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="dropdown-mobile">
+                                    <div class="dropdown-label hover-green
+                                            section-menu-mobile">
+                                        <img src="./public/images/img_language/1.jpg" alt="English" />
+                                        <span> English</span>
+                                        <i class="fas fa-angle-down
+                                                float-end"></i>
+                                    </div>
+                                    <div class="show-menu">
+                                        <ul>
+                                            <li class="section-menu-mobile">
+                                                <a href="#">
+                                                    <img src="./public/images/img_language/1.jpg" alt="English" />
+                                                    English
+                                                </a>
+                                            </li>
+                                            <li class="section-menu-mobile">
+                                                <a href="#">
+                                                    <img src="./public/images/img_language/3.jpg" alt="Français" />
+                                                    Français
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="section-menu-mobile close-menu">
+                                    MENU <i class="fas fa-arrow-left
+                                            float-end"></i>
+                                </div>
+                                <div class="section-menu-mobile">
+                                    <a href="#" class="text-dark fw-bold">Home</a>
+                                </div>
+                                <div class="dropdown-mobile">
+                                    <div class="dropdown-label hover-green
+                                            section-menu-mobile">
+                                        <a href="#" class="text-dark
+                                                fw-bold">Fruits</a>
+                                        <i class="fas fa-plus float-end"></i>
+                                    </div>
+                                    <div class="show-menu">
+                                        <ul>
+                                            <li class="section-menu-mobile">
+                                                <a href="#"> Laura Mercier</a>
+                                            </li>
+                                            <li class="section-menu-mobile">
+                                                <a href="#"> Nutrition</a>
+                                            </li>
+                                            <li class="section-menu-mobile">
+                                                <a href="#"> Full Miu</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="dropdown-mobile">
+                                    <div class="dropdown-label hover-green
+                                            section-menu-mobile">
+                                        <a href="#" class="text-dark
+                                                fw-bold">Salads</a>
+                                        <i class="fas fa-plus float-end"></i>
+                                    </div>
+                                    <div class="show-menu">
+                                        <ul>
+                                            <li class="section-menu-mobile">
+                                                <a href="#"> Laura Mercier</a>
+                                            </li>
+                                            <li class="section-menu-mobile">
+                                                <a href="#"> Nutrition</a>
+                                            </li>
+                                            <li class="section-menu-mobile">
+                                                <a href="#"> Full Miu</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="dropdown-mobile">
+                                    <div class="dropdown-label hover-green
+                                            section-menu-mobile">
+                                        <a href="#" class="text-dark
+                                                fw-bold">Fish & Seafood</a>
+                                        <i class="fas fa-plus float-end"></i>
+                                    </div>
+                                    <div class="show-menu">
+                                        <ul>
+                                            <li class="section-menu-mobile">
+                                                <a href="#"> Laura Mercier</a>
+                                            </li>
+                                            <li class="section-menu-mobile">
+                                                <a href="#"> Nutrition</a>
+                                            </li>
+                                            <li class="section-menu-mobile">
+                                                <a href="#"> Full Miu</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="section-menu-mobile">
+                                    <a href="#" class="text-dark fw-bold">Milk</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="logo-home col-xl-2 col-6 text-center
+                            me-auto">
+                        <a href="#">
+                            <img src="./public/images/jena-4-responsive-prestashop-theme-logo-15556451474.jpg"
+                                alt="logo-home" class="img-fluid" />
+                        </a>
+                    </div>
+                    <div class="mobile-shopping-cart
+                            shopping-cart
+                            col-3
+                            d-block d-xl-none
+                            text-end">
+                        <a href="#" class="hover-green">
+                            <i class="far fa-user"></i>
+                        </a>
+                        <a href="#" class="hover-green">
+                            <i class="fas fa-cart-arrow-down"></i>
+                        </a>
+                    </div>
+                    <div class="col-xl-6 col-lg-7 d-none d-xl-block">
+                        <ul class="menu-content">
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li class="submenu-content">
+                                <a href="#">Fruits <i class="fas
+                                            fa-angle-down"></i></a>
+                                <div class="submenu-show">
+                                    <ul class="catogory-menu">
+                                        <li class="catogory-menu-heading">
+                                            <a href="#">Laura Mercier</a>
+                                        </li>
+                                        <li class="catogory-menu-row">
+                                            <a href="#">Bananas</a>
+                                        </li>
+                                        <li class="catogory-menu-row">
+                                            <a href="#">Apples & Pears</a>
+                                        </li>
+                                        <li class="catogory-menu-row">
+                                            <a href="#">Berries & Cherries</a>
+                                        </li>
+                                        <li class="catogory-menu-row">
+                                            <a href="#">Oranges & Citrus
+                                                Fruit</a>
+                                        </li>
+                                        <li class="catogory-menu-row">
+                                            <a href="#">Grapes</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="catogory-menu">
+                                        <li class="catogory-menu-heading">
+                                            <a href="#">Nutrition</a>
+                                        </li>
+                                        <li class="catogory-menu-row">
+                                            <a href="#">Potatoes</a>
+                                        </li>
+                                        <li class="catogory-menu-row">
+                                            <a href="#">Sweet Potatoes</a>
+                                        </li>
+                                        <li class="catogory-menu-row">
+                                            <a href="#">Onions & Leeks</a>
+                                        </li>
+                                        <li class="catogory-menu-row">
+                                            <a href="#">Root Vegetables</a>
+                                        </li>
+                                        <li class="catogory-menu-row">
+                                            <a href="#">Broccoli &
+                                                Cauliflower</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="catogory-menu">
+                                        <li class="catogory-menu-heading">
+                                            <a href="#">Full Miu</a>
+                                        </li>
+                                        <li class="catogory-menu-row">
+                                            <a href="#">Cabbages & Greens</a>
+                                        </li>
+                                        <li class="catogory-menu-row">
+                                            <a href="#">Lettuce & Salad bags</a>
+                                        </li>
+                                        <li class="catogory-menu-row">
+                                            <a href="#">Tomatoes</a>
+                                        </li>
+                                        <li class="catogory-menu-row">
+                                            <a href="#">Cucumber</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="submenu-content">
+                                <a href="#">Salads <i class="fas
+                                            fa-angle-down"></i></a>
+                                <div class="submenu-show">
+                                    <ul class="catogory-menu">
+                                        <li class="catogory-menu-heading">
+                                            <a href="#">Salmon</a>
+                                        </li>
+                                        <li class="catogory-menu-row">
+                                            <a href="#">Fresh Salad</a>
+                                        </li>
+                                        <li class="catogory-menu-row">
+                                            <a href="#">Salad bags</a>
+                                        </li>
+                                        <li class="catogory-menu-row">
+                                            <a href="#">Celery</a>
+                                        </li>
+                                        <li class="catogory-menu-row">
+                                            <a href="#">Peppers</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="catogory-menu">
+                                        <li class="catogory-menu-heading">
+                                            <a href="#">Sea Fish</a>
+                                        </li>
+                                        <li class="catogory-menu-row">
+                                            <a href="#">Milk</a>
+                                        </li>
+                                        <li class="catogory-menu-row">
+                                            <a href="#">Square Beds</a>
+                                        </li>
+                                        <li class="catogory-menu-row">
+                                            <a href="#">Flat sandals</a>
+                                        </li>
+                                        <li class="catogory-menu-row">
+                                            <a href="#">Round Beds</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="submenu-content">
+                                <a href="#">Fish & Seafood <i class="fas
+                                            fa-angle-down"></i></a>
+                                <div class="submenu-show">
+                                    <ul class="catogory-menu">
+                                        <li class="catogory-menu-heading">
+                                            <a href="#">Seafood</a>
+                                        </li>
+                                        <li class="catogory-menu-row">
+                                            <a href="#">Nutrition</a>
+                                        </li>
+                                        <li class="catogory-menu-row">
+                                            <a href="#">Burger</a>
+                                        </li>
+                                        <li class="catogory-menu-row">
+                                            <a href="#">Pizza</a>
+                                        </li>
+                                        <li class="catogory-menu-row">
+                                            <a href="#">Collar Leash Sets</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="catogory-menu">
+                                        <li class="catogory-menu-heading">
+                                            <a href="#">Sea Fish</a>
+                                        </li>
+                                        <li class="catogory-menu-row">
+                                            <a href="#">Milk</a>
+                                        </li>
+                                        <li class="catogory-menu-row">
+                                            <a href="#">Square Beds</a>
+                                        </li>
+                                        <li class="catogory-menu-row">
+                                            <a href="#">Flat sandals</a>
+                                        </li>
+                                        <li class="catogory-menu-row">
+                                            <a href="#">Round Beds</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">Milk</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="search-catogory col-12 col-xl-1">
+                        <span class="hover-green d-none d-xl-block">
+                            <i class="fas fa-search"></i>
+                        </span>
+                        <form action="#" method="get" class="form-search d-block d-xl-none">
+                            <div>
+                                <input type="text" placeholder="Search our catalog" />
+                                <button type="submit">
+                                    <i class="fas fa-search hover-green"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="desktop-wishtlist d-none d-xl-block">
+                        <a href="#" class="hover-green">
+                            <i class="far fa-heart"> </i>
+                        </a>
+                    </div>
+                    <div class="col-2 col-xl-1 shopping-cart d-none
+                            d-xl-block">
+                        <a href="" class="hover-green">
+                            <i class="fas fa-cart-arrow-down"></i>
+                            <span class="fs-6 text d-lg-inline d-none">
+                                $0.00 </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Slider  -->
+        <div class="slider-show">
+            <div class="sliders">
+                <div class="slider active-slider">
+                    <img class="img-fluid"
+                        src="./public/images/slider/a6d9a65cc38f9cf5cb57bd82f97623dce393d4f0_banner1_home4.jpg"
+                        alt="silder banner 1" />
+                    <div class="container">
+                        <div class="info-slider">
+                            <h5>100% Organic</h5>
+                            <h2>Live Organic</h2>
+                            <h2>For Live Healthy</h2>
+                            <p>A Great Variety Of Care fully Stored Citruses</p>
+                            <a href="#" class="btn-shop-now bg-green
+                                    rounded-pill">
+                                Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider">
+                    <img class="img-fluid"
+                        src="./public/images/slider/49b4c5f36ab7d6dbbddffb6d40b06951d2621668_banner2_home4.jpg"
+                        alt="silder banner 2" />
+                    <div class="container">
+                        <div class="info-slider">
+                            <h5>Nature Organic</h5>
+                            <h2>Summer Sale</h2>
+                            <h2>For Live Healthy</h2>
+                            <p>A Great Variety Of Care fully Stored Citruses</p>
+                            <a href="#" class="btn-shop-now bg-green
+                                    rounded-pill">
+                                Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider">
+                    <img class="img-fluid"
+                        src="./public/images/slider/116cdd9a49d49c7b21b19d6bd6fd8f4b7005df3d_banner3_home4.jpg"
+                        alt="silder banner 3" />
+                    <div class="container">
+                        <div class="info-slider">
+                            <h5>100% Organic</h5>
+                            <h2>Live Organic</h2>
+                            <h2>Up To 70% Off</h2>
+                            <p>Lemons 100% Natural</p>
+                            <a href="#" class="btn-shop-now bg-green
+                                    rounded-pill">
+                                Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wrap-control">
+                <img class="img-fluid"
+                    src="./public/images/slider/49b4c5f36ab7d6dbbddffb6d40b06951d2621668_banner2_home4.jpg"
+                    alt="silder banner 2" />
+                <div class="control-silder">
+                    <ul>
+                        <li class="active-slider-btn">1</li>
+                        <li>2</li>
+                        <li>3</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="main">
+        <div class="home-banner">
+            <div class="container">
+                <!-- Service Content -->
+                <div class="box-wrap">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-3">
+                            <div class="box">
+                                <div class="icon">
+                                    <img src="./public/images/icon-home/icon1_home3.png" alt="icon
+                                            car" class="img-fluid" />
+                                </div>
+                                <div class="info-box">
+                                    <h4>Free Shipping</h4>
+                                    <p>On all orders over $75.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3">
+                            <div class="box">
+                                <div class="icon">
+                                    <img src="./public/images/icon-home/icon2_home3.png" alt="icon
+                                            car" class="img-fluid" />
+                                </div>
+                                <div class="info-box">
+                                    <h4>Free Free Returns</h4>
+                                    <p>Returns are free within 9 days</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3">
+                            <div class="box">
+                                <div class="icon">
+                                    <img src="./public/images/icon-home/icon3_home3.png" alt="icon
+                                            car" class="img-fluid" />
+                                </div>
+                                <div class="info-box">
+                                    <h4>100% Payment Secure</h4>
+                                    <p>Your payment are safe with us.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3">
+                            <div class="box">
+                                <div class="icon">
+                                    <img src="./public/images/icon-home/icon1_home3.png" alt="icon
+                                            car" class="img-fluid" />
+                                </div>
+                                <div class="info-box">
+                                    <h4>Support 24/7</h4>
+                                    <p>Contact us 24 hours a day</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="section-content">
+                <h4>Awesome Shop</h4>
+                <h2>Jena Collection</h2>
+                <div class="row">
+                    <div class="col-12 col-lg-6 wrap-box-colection">
+                        <a href="#">
+                            <div class="box-colection">
+                                <img src="./public/images/Collection/img4_home2.jpg" alt="watermelon" />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="row">
+                            <div class="col-12 col-md-6 wrap-box-colection">
+                                <a href="#">
+                                    <div class="box-colection">
+                                        <img src="./public/images/Collection/img5_home2.jpg" alt="TOi" />
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-6 wrap-box-colection">
+                                <a href="#">
+                                    <div class="box-colection">
+                                        <img src="./public/images/Collection/img6_home2.jpg" alt="TOi" />
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-6 wrap-box-colection">
+                                <a href="#">
+                                    <div class="box-colection">
+                                        <img src="./public/images/Collection/img7_home2.jpg" alt="TOi" />
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-6 wrap-box-colection">
+                                <a href="#">
+                                    <div class="box-colection">
+                                        <img src="./public/images/Collection/img8_home2.jpg" alt="TOi" />
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-content">
+            <h4>Awesome Shop</h4>
+            <h2>Our Products</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="tab-produce-list">
+                        <ul>
+                            <li class="text-center">
+                                <img src="./public/images/img_icon_produce_list/40-0_thumb.jpg"
+                                    alt="img icon produce list" class="img-fluid" />
+                                <span class="hover-green">Laura Mercier</span>
+                            </li>
+                            <li class="text-center">
+                                <img src="./public/images/img_icon_produce_list/41-0_thumb.jpg"
+                                    alt="img icon produce list" class="img-fluid" />
+                                <span class="hover-green">Nutrition</span>
+                            </li>
+                            <li class="text-center">
+                                <img src="./public/images/img_icon_produce_list/95-0_thumb.jpg"
+                                    alt="img icon produce list" class="img-fluid" />
+                                <span class="hover-green">Full Miu</span>
+                            </li>
+                            <li class="text-center">
+                                <img src="./public/images/img_icon_produce_list/52-0_thumb.jpg"
+                                    alt="img icon produce list" class="img-fluid" />
+                                <span class="hover-green">Salmon</span>
+                            </li>
+                        </ul>
+                        <div class="produce-category-slide">
+                            <div class="owl-carousel owl-theme
+                                    produce-category">
+                                <div class="item">
+                                    <div class="item-product">
+                                        <div class="block-product">
+                                            <span class="mark-product new">
+                                                NEW </span>
+                                            <img src="./public/images/produce/rival-field-messenger.jpg" alt="Product"
+                                                class="first-img img-fluid" />
+                                            <img src="./public/images/produce/rival-field-messenger1.jpg" alt="Product"
+                                                class="second-img img-fluid" />
+                                            <div class="product-info">
+                                                <h4>
+                                                    <a href="#" class="name
+                                                            hover-green">
+                                                        Strive Shoulder
+                                                        Pack1
+                                                    </a>
+                                                </h4>
+                                                <span class="price"><span class="root-price
+                                                            text-decoration-line-through
+                                                            text-black-50"></span>
+                                                    $45.90
+                                                </span>
+                                                <div class="add-cart">
+                                                    <a href="#" class="hover-green
+                                                            btn-add-cart">
+                                                        Add to cart
+                                                    </a>
+                                                    <a href="#" title="Quick
+                                                            view">
+                                                        <i class="far
+                                                                fa-heart
+                                                                float-end
+                                                                hover-green"></i>
+                                                    </a>
+                                                    <a href="#" title="Add
+                                                            to wishlist">
+                                                        <i class="far fa-eye
+                                                                float-end
+                                                                hover-green"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="block-product">
+                                            <span class="mark-product new">
+                                                NEW </span>
+                                            <img src="./public/images/produce/orange-bell-pepper.jpg" alt="Product"
+                                                class="first-img img-fluid" />
+                                            <img src="./public/images/produce/orange-bell-pepper1.jpg" alt="Product"
+                                                class="second-img img-fluid" />
+                                            <div class="product-info">
+                                                <h4>
+                                                    <a href="#" class="name
+                                                            hover-green">
+                                                        Strive Shoulder
+                                                        Pack1
+                                                    </a>
+                                                </h4>
+                                                <span class="price">
+                                                    <span class="root-price
+                                                            text-decoration-line-through
+                                                            text-black-50"></span>
+                                                    $45.90
+                                                </span>
+                                                <div class="add-cart">
+                                                    <a href="#" class="hover-green
+                                                            btn-add-cart">
+                                                        Add to cart
+                                                    </a>
+                                                    <a href="#" title="Quick
+                                                            view">
+                                                        <i class="far
+                                                                fa-heart
+                                                                float-end
+                                                                hover-green"></i>
+                                                    </a>
+                                                    <a href="#" title="Add
+                                                            to wishlist">
+                                                        <i class="far fa-eye
+                                                                float-end
+                                                                hover-green"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="item-product">
+                                        <div class="block-product">
+                                            <span class="mark-product new">
+                                                NEW </span>
+                                            <img src="./public/images/produce/rival-field-messenger-2.jpg" alt=""
+                                                class="first-img img-fluid" />
+                                            <img src="./public/images/produce/orange-bell-pepper1.jpg" alt=""
+                                                class="second-img img-fluid" />
+                                            <div class="product-info">
+                                                <h4>
+                                                    <a href="#" class="name
+                                                            hover-green">
+                                                        Strive Shoulder Pack
+                                                    </a>
+                                                </h4>
+                                                <span class="price">
+                                                    <span class="root-price
+                                                            text-decoration-line-through
+                                                            text-black-50"></span>
+                                                    $45.90
+                                                </span>
+                                                <div class="add-cart">
+                                                    <a href="#" class="hover-green
+                                                            btn-add-cart">
+                                                        Add to cart
+                                                    </a>
+                                                    <a href="#" title="Quick
+                                                            view">
+                                                        <i class="far
+                                                                fa-heart
+                                                                float-end
+                                                                hover-green"></i>
+                                                    </a>
+                                                    <a href="#" title="Add
+                                                            to wishlist">
+                                                        <i class="far fa-eye
+                                                                float-end
+                                                                hover-green"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="block-product">
+                                            <span class="mark-product new">
+                                                NEW </span>
+                                            <img src="./public/images/produce/mh02-black.jpg" alt=""
+                                                class="first-img img-fluid" />
+                                            <img src="./public/images/produce/rival-field-messenger1.jpg" alt=""
+                                                class="second-img img-fluid" />
+                                            <div class="product-info">
+                                                <h4>
+                                                    <a href="#" class="name
+                                                            hover-green">
+                                                        Rival Field
+                                                        Messenger 1
+                                                    </a>
+                                                </h4>
+                                                <span class="price"><span class="root-price
+                                                            text-decoration-line-through
+                                                            text-black-50"></span>
+                                                    $45.90
+                                                </span>
+                                                <div class="add-cart">
+                                                    <a href="#" class="hover-green
+                                                            btn-add-cart">
+                                                        Add to cart
+                                                    </a>
+                                                    <a href="#" title="Quick
+                                                            view">
+                                                        <i class="far
+                                                                fa-heart
+                                                                float-end
+                                                                hover-green"></i>
+                                                    </a>
+                                                    <a href="#" title="Add
+                                                            to wishlist">
+                                                        <i class="far fa-eye
+                                                                float-end
+                                                                hover-green"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="item-product">
+                                        <div class="block-product">
+                                            <span class="mark-product
+                                                    discount"> -9% </span>
+                                            <img src="./public/images/produce/mh01-gray1.jpg" alt="Product"
+                                                class="first-img img-fluid" />
+                                            <img src="./public/images/produce/mh01-gray.jpg" alt="Product"
+                                                class="second-img img-fluid" />
+                                            <div class="product-info">
+                                                <h4>
+                                                    <a href="#" class="name
+                                                            hover-green">
+                                                        Strive Shoulder
+                                                        Pack1
+                                                    </a>
+                                                </h4>
+                                                <span class="price">
+                                                    <span class="root-price
+                                                            text-decoration-line-through
+                                                            text-black-50">$51.70</span>
+                                                    $45.90
+                                                </span>
+                                                <div class="add-cart">
+                                                    <a href="#" class="hover-green
+                                                            btn-add-cart">
+                                                        Add to cart
+                                                    </a>
+                                                    <a href="#" title="Quick
+                                                            view">
+                                                        <i class="far
+                                                                fa-heart
+                                                                float-end
+                                                                hover-green"></i>
+                                                    </a>
+                                                    <a href="#" title="Add
+                                                            to wishlist">
+                                                        <i class="far fa-eye
+                                                                float-end
+                                                                hover-green"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="block-product">
+                                            <span class="mark-product new">
+                                                NEW </span>
+                                            <img src="./public/images/produce/rival-field-messenger-3.jpg" alt="Product"
+                                                class="first-img img-fluid" />
+                                            <img src="./public/images/produce/rival-field-messenger-2.jpg" alt="Product"
+                                                class="second-img img-fluid" />
+                                            <div class="product-info">
+                                                <h4>
+                                                    <a href="#" class="name
+                                                            hover-green">
+                                                        Strive Shoulder
+                                                        Pack1
+                                                    </a>
+                                                </h4>
+                                                <span class="price">
+                                                    <span class="root-price
+                                                            text-decoration-line-through
+                                                            text-black-50"></span>
+                                                    $45.90
+                                                </span>
+                                                <div class="add-cart">
+                                                    <a href="#" class="hover-green
+                                                            btn-add-cart">
+                                                        Add to cart
+                                                    </a>
+                                                    <a href="#" title="Quick
+                                                            view">
+                                                        <i class="far
+                                                                fa-heart
+                                                                float-end
+                                                                hover-green"></i>
+                                                    </a>
+                                                    <a href="#" title="Add
+                                                            to wishlist">
+                                                        <i class="far fa-eye
+                                                                float-end
+                                                                hover-green"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="item-product">
+                                        <div class="block-product">
+                                            <span class="mark-product new">
+                                                NEW </span>
+                                            <img src="./public/images/produce/rival-field-messenger-2.jpg" alt=""
+                                                class="first-img img-fluid" />
+                                            <img src="./public/images/produce/orange-bell-pepper1.jpg" alt=""
+                                                class="second-img img-fluid" />
+                                            <div class="product-info">
+                                                <h4>
+                                                    <a href="#" class="name
+                                                            hover-green">
+                                                        Strive Shoulder Pack
+                                                    </a>
+                                                </h4>
+                                                <span class="price">
+                                                    <span class="root-price
+                                                            text-decoration-line-through
+                                                            text-black-50"></span>
+                                                    $45.90
+                                                </span>
+                                                <div class="add-cart">
+                                                    <a href="#" class="hover-green
+                                                            btn-add-cart">
+                                                        Add to cart
+                                                    </a>
+                                                    <a href="#" title="Quick
+                                                            view">
+                                                        <i class="far
+                                                                fa-heart
+                                                                float-end
+                                                                hover-green"></i>
+                                                    </a>
+                                                    <a href="#" title="Add
+                                                            to wishlist">
+                                                        <i class="far fa-eye
+                                                                float-end
+                                                                hover-green"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="block-product">
+                                            <span class="mark-product
+                                                    discount"> -20% </span>
+                                            <img src="./public/images/produce/mh02-black.jpg" alt=""
+                                                class="first-img img-fluid" />
+                                            <img src="./public/images/produce/established-fact.jpg" alt=""
+                                                class="second-img img-fluid" />
+                                            <div class="product-info">
+                                                <h4>
+                                                    <a href="#" class="name
+                                                            hover-green">
+                                                        Rival Field
+                                                        Messenger 1
+                                                    </a>
+                                                </h4>
+                                                <span class="price"><span class="root-price
+                                                            text-decoration-line-through
+                                                            text-black-50">$54.70</span>
+                                                    $45.90
+                                                </span>
+                                                <div class="add-cart">
+                                                    <a href="#" class="hover-green
+                                                            btn-add-cart">
+                                                        Add to cart
+                                                    </a>
+                                                    <a href="#" title="Quick
+                                                            view">
+                                                        <i class="far
+                                                                fa-heart
+                                                                float-end
+                                                                hover-green"></i>
+                                                    </a>
+                                                    <a href="#" title="Add
+                                                            to wishlist">
+                                                        <i class="far fa-eye
+                                                                float-end
+                                                                hover-green"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="item-product">
+                                        <div class="block-product">
+                                            <span class="mark-product
+                                                    discount"> -20% </span>
+                                            <img src="./public/images/produce/beginner-s-yoga1.jpg" alt=""
+                                                class="first-img img-fluid" />
+                                            <img src="./public/images/produce/established-fact.jpg" alt=""
+                                                class="second-img img-fluid" />
+                                            <div class="product-info">
+                                                <h4>
+                                                    <a href="#" class="name
+                                                            hover-green">
+                                                        Rival Field
+                                                        Messenger 1
+                                                    </a>
+                                                </h4>
+                                                <span class="price"><span class="root-price
+                                                            text-decoration-line-through
+                                                            text-black-50">$54.70</span>
+                                                    $45.90
+                                                </span>
+                                                <div class="add-cart">
+                                                    <a href="#" class="hover-green
+                                                            btn-add-cart">
+                                                        Add to cart
+                                                    </a>
+                                                    <a href="#" title="Quick
+                                                            view">
+                                                        <i class="far
+                                                                fa-heart
+                                                                float-end
+                                                                hover-green"></i>
+                                                    </a>
+                                                    <a href="#" title="Add
+                                                            to wishlist">
+                                                        <i class="far fa-eye
+                                                                float-end
+                                                                hover-green"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-content static-content">
+            <div class="container">
+                <h2>100% Organic.</h2>
+                <h3>Natural <span>Fresh Juice</span></h3>
+                <p>
+                    Made of 100% Valencia oranges to hold a perfect balance
+                    of sweet and
+                    tart flavor. This juice is made most enjoyable by the
+                    absence of the
+                    pulb!
+                </p>
+                <a href="#" class="btn-discover-now"> Discover Now </a>
+            </div>
+        </div>
+        <div class="section-content pos-logo">
+            <div class="container">
+                <div class="owl-carousel owl-theme logo-slider">
+                    <div class="item">
+                        <a href="#">
+                            <img src="./public/images/Logo/1.jpg" alt="Logo" />
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="./public/images/Logo/2.jpg" alt="Logo" />
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="./public/images/Logo/3.jpg" alt="Logo" />
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="./public/images/Logo/4.jpg" alt="Logo" />
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="./public/images/Logo/5.jpg" alt="Logo" />
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="./public/images/Logo/6.jpg" alt="Logo" />
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="./public/images/Logo/7.jpg" alt="Logo" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-content best-sell">
+            <h4>Awesome Shop</h4>
+            <h2>bestsellers</h2>
+            <div class="container">
+                <div class="owl-carousel owl-theme best-sell-slider">
+                    <div class="item">
+                        <div class="block-product">
+                            <span class="mark-product new">New</span>
+                            <img src="./public/images/produce/beginner-s-yoga.jpg" alt="" class="first-img img-fluid" />
+                            <img src="./public/images/produce/rival-field-messenger-3.jpg" alt=""
+                                class="second-img img-fluid" />
+                            <div class="product-info">
+                                <h4>
+                                    <a href="#" class="name hover-green">
+                                        Beginner's Yoga </a>
+                                </h4>
+                                <span class="price"><span class="root-price
+                                            text-decoration-line-through
+                                            text-black-50"></span>
+                                    $45.90
+                                </span>
+                                <div class="add-cart">
+                                    <a href="#" class="hover-green
+                                            btn-add-cart">
+                                        Add to cart
+                                    </a>
+                                    <a href="#" title="Quick view">
+                                        <i class="far fa-heart float-end
+                                                hover-green"></i>
+                                    </a>
+                                    <a href="#" title="Add to wishlist">
+                                        <i class="far fa-eye float-end
+                                                hover-green"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="block-product">
+                            <span class="mark-product new">new</span>
+                            <img src="./public/images/produce/rival-field-messenger-3.jpg" alt=""
+                                class="first-img img-fluid" />
+                            <img src="./public/images/produce/rival-field-messenger-2.jpg" alt=""
+                                class="second-img img-fluid" />
+                            <div class="product-info">
+                                <h4>
+                                    <a href="#" class="name hover-green">
+                                        Rival Field Messenger 1
+                                    </a>
+                                </h4>
+                                <span class="price"><span class="root-price
+                                            text-decoration-line-through
+                                            text-black-50"></span>
+                                    $45.90
+                                </span>
+                                <div class="add-cart">
+                                    <a href="#" class="hover-green
+                                            btn-add-cart">
+                                        Add to cart
+                                    </a>
+                                    <a href="#" title="Quick view">
+                                        <i class="far fa-heart float-end
+                                                hover-green"></i>
+                                    </a>
+                                    <a href="#" title="Add to wishlist">
+                                        <i class="far fa-eye float-end
+                                                hover-green"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="block-product">
+                            <span class="mark-product new">new</span>
+                            <img src="./public/images/produce/rival-field-messenger.jpg" alt=""
+                                class="first-img img-fluid" />
+                            <img src="./public/images/produce/orange-bell-pepper1.jpg" alt=""
+                                class="second-img img-fluid" />
+                            <div class="product-info">
+                                <h4>
+                                    <a href="#" class="name hover-green">
+                                        Beginner's Yoga1 </a>
+                                </h4>
+                                <span class="price"><span class="root-price
+                                            text-decoration-line-through
+                                            text-black-50"></span>
+                                    $45.90
+                                </span>
+                                <div class="add-cart">
+                                    <a href="#" class="hover-green
+                                            btn-add-cart">
+                                        Add to cart
+                                    </a>
+                                    <a href="#" title="Quick view">
+                                        <i class="far fa-heart float-end
+                                                hover-green"></i>
+                                    </a>
+                                    <a href="#" title="Add to wishlist">
+                                        <i class="far fa-eye float-end
+                                                hover-green"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="block-product">
+                            <span class="mark-product new">new</span>
+                            <img src="./public/images/produce/rival-field-messenger-2.jpg" alt=""
+                                class="first-img img-fluid" />
+                            <img src="./public/images/produce/orange-bell-pepper1.jpg" alt=""
+                                class="second-img img-fluid" />
+                            <div class="product-info">
+                                <h4>
+                                    <a href="#" class="name hover-green">
+                                        Established fact </a>
+                                </h4>
+                                <span class="price"><span class="root-price
+                                            text-decoration-line-through
+                                            text-black-50"></span>
+                                    $45.90
+                                </span>
+                                <div class="add-cart">
+                                    <a href="#" class="hover-green
+                                            btn-add-cart">
+                                        Add to cart
+                                    </a>
+                                    <a href="#" title="Quick view">
+                                        <i class="far fa-heart float-end
+                                                hover-green"></i>
+                                    </a>
+                                    <a href="#" title="Add to wishlist">
+                                        <i class="far fa-eye float-end
+                                                hover-green"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="block-product">
+                            <span class="mark-product new">new</span>
+                            <img src="./public/images/produce/mh02-black.jpg" alt="" class="first-img img-fluid" />
+                            <img src="./public/images/produce/established-fact.jpg" alt=""
+                                class="second-img img-fluid" />
+                            <div class="product-info">
+                                <h4>
+                                    <a href="#" class="name hover-green">
+                                        Orange Bell Pepper
+                                    </a>
+                                </h4>
+                                <span class="price"><span class="root-price
+                                            text-decoration-line-through
+                                            text-black-50"></span>
+                                    $45.90
+                                </span>
+                                <div class="add-cart">
+                                    <a href="#" class="hover-green
+                                            btn-add-cart">
+                                        Add to cart
+                                    </a>
+                                    <a href="#" title="Quick view">
+                                        <i class="far fa-heart float-end
+                                                hover-green"></i>
+                                    </a>
+                                    <a href="#" title="Add to wishlist">
+                                        <i class="far fa-eye float-end
+                                                hover-green"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="block-product">
+                            <span class="mark-product new">new</span>
+                            <img src="./public/images/produce/rival-field-messenger-3.jpg" alt=""
+                                class="first-img img-fluid" />
+                            <img src="./public/images/produce/wayfarer-messenger-bag1.jpg" alt=""
+                                class="second-img img-fluid" />
+                            <div class="product-info">
+                                <h4>
+                                    <a href="#" class="name hover-green">
+                                        Beginner's Yoga1 </a>
+                                </h4>
+                                <span class="price"><span class="root-price
+                                            text-decoration-line-through
+                                            text-black-50"></span>
+                                    $45.90
+                                </span>
+                                <div class="add-cart">
+                                    <a href="#" class="hover-green
+                                            btn-add-cart">
+                                        Add to cart
+                                    </a>
+                                    <a href="#" title="Quick view">
+                                        <i class="far fa-heart float-end
+                                                hover-green"></i>
+                                    </a>
+                                    <a href="#" title="Add to wishlist">
+                                        <i class="far fa-eye float-end
+                                                hover-green"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="block-product">
+                            <span class="mark-product new">new</span>
+                            <img src="./public/images/produce/wayfarer-messenger-bag1.jpg" alt=""
+                                class="first-img img-fluid" />
+                            <img src="./public/images/produce/orange-bell-pepper1.jpg" alt=""
+                                class="second-img img-fluid" />
+                            <div class="product-info">
+                                <h4>
+                                    <a href="#" class="name hover-green">
+                                        Beginner's Yoga1 </a>
+                                </h4>
+                                <span class="price"><span class="root-price
+                                            text-decoration-line-through
+                                            text-black-50"></span>
+                                    $45.90
+                                </span>
+                                <div class="add-cart">
+                                    <a href="#" class="hover-green
+                                            btn-add-cart">
+                                        Add to cart
+                                    </a>
+                                    <a href="#" title="Quick view">
+                                        <i class="far fa-heart float-end
+                                                hover-green"></i>
+                                    </a>
+                                    <a href="#" title="Add to wishlist">
+                                        <i class="far fa-eye float-end
+                                                hover-green"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="block-product">
+                            <span class="mark-product new">new</span>
+                            <img src="./public/images/produce/established-fact.jpg" alt=""
+                                class="first-img img-fluid" />
+                            <img src="./public/images/produce/mh01-gray.jpg" alt="" class="second-img img-fluid" />
+                            <div class="product-info">
+                                <h4>
+                                    <a href="#" class="name hover-green">
+                                        Beginner's Yoga1 </a>
+                                </h4>
+                                <span class="price"><span class="root-price
+                                            text-decoration-line-through
+                                            text-black-50"></span>
+                                    $45.90
+                                </span>
+                                <div class="add-cart">
+                                    <a href="#" class="hover-green
+                                            btn-add-cart">
+                                        Add to cart
+                                    </a>
+                                    <a href="#" title="Quick view">
+                                        <i class="far fa-heart float-end
+                                                hover-green"></i>
+                                    </a>
+                                    <a href="#" title="Add to wishlist">
+                                        <i class="far fa-eye float-end
+                                                hover-green"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="block-product">
+                            <span class="mark-product new">new</span>
+                            <img src="./public/images/produce/beginner-s-yoga1.jpg" alt=""
+                                class="first-img img-fluid" />
+                            <img src="./public/images/produce/orange-bell-pepper1.jpg" alt=""
+                                class="second-img img-fluid" />
+                            <div class="product-info">
+                                <h4>
+                                    <a href="#" class="name hover-green">
+                                        Beginner's Yoga1 </a>
+                                </h4>
+                                <span class="price"><span class="root-price
+                                            text-decoration-line-through
+                                            text-black-50"></span>
+                                    $45.90
+                                </span>
+                                <div class="add-cart">
+                                    <a href="#" class="hover-green
+                                            btn-add-cart">
+                                        Add to cart
+                                    </a>
+                                    <a href="#" title="Quick view">
+                                        <i class="far fa-heart float-end
+                                                hover-green"></i>
+                                    </a>
+                                    <a href="#" title="Add to wishlist">
+                                        <i class="far fa-eye float-end
+                                                hover-green"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="block-product">
+                            <span class="mark-product new">new</span>
+                            <img src="./public/images/produce/rival-field-messenger.jpg" alt=""
+                                class="first-img img-fluid" />
+                            <img src="./public/images/produce/orange-bell-pepper1.jpg" alt=""
+                                class="second-img img-fluid" />
+                            <div class="product-info">
+                                <h4>
+                                    <a href="#" class="name hover-green">
+                                        Beginner's Yoga1 </a>
+                                </h4>
+                                <span class="price"><span class="root-price
+                                            text-decoration-line-through
+                                            text-black-50"></span>
+                                    $45.90
+                                </span>
+                                <div class="add-cart">
+                                    <a href="#" class="hover-green
+                                            btn-add-cart">
+                                        Add to cart
+                                    </a>
+                                    <a href="#" title="Quick view">
+                                        <i class="far fa-heart float-end
+                                                hover-green"></i>
+                                    </a>
+                                    <a href="#" title="Add to wishlist">
+                                        <i class="far fa-eye float-end
+                                                hover-green"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="block-product">
+                            <span class="mark-product new">new</span>
+                            <img src="./public/images/produce/rival-field-messenger.jpg" alt=""
+                                class="first-img img-fluid" />
+                            <img src="./public/images/produce/orange-bell-pepper1.jpg" alt=""
+                                class="second-img img-fluid" />
+                            <div class="product-info">
+                                <h4>
+                                    <a href="#" class="name hover-green">
+                                        Beginner's Yoga1 </a>
+                                </h4>
+                                <span class="price"><span class="root-price
+                                            text-decoration-line-through
+                                            text-black-50"></span>
+                                    $45.90
+                                </span>
+                                <div class="add-cart">
+                                    <a href="#" class="hover-green
+                                            btn-add-cart">
+                                        Add to cart
+                                    </a>
+                                    <a href="#" title="Quick view">
+                                        <i class="far fa-heart float-end
+                                                hover-green"></i>
+                                    </a>
+                                    <a href="#" title="Add to wishlist">
+                                        <i class="far fa-eye float-end
+                                                hover-green"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-content">
+            <h4>Awesome Shop</h4>
+            <h2>bestsellers</h2>
+            <div class="container">
+                <div class="owl-carousel owl-theme slide-hot-category">
+                    <div class="item">
+                        <div class="list-categories">
+                            <div class="img-category">
+                                <img src="./public/images/Category/f4283e9325811e58e6633ffd8ca37838fb152f6a_list3.jpg"
+                                    alt="Category" class="img-fluid" />
+                            </div>
+                            <div class="list-categories-info">
+                                <h5>Full Miu</h5>
+                                <div class="sub">
+                                    <a href="#">Cabbages & Greens</a>
+                                    <a href="#">Lettuce & Salad bags</a>
+                                    <a href="#">Tomatoes</a>
+                                    <a href="#">Cucumber</a>
+                                </div>
+                                <a href="#" class="view-all">View All</a>
+                            </div>
+                        </div>
+                        <div class="list-categories">
+                            <div class="img-category">
+                                <img src="./public/images/Category/75652aa05e8e927745bac87586c549da461ffb83_list4.jpg"
+                                    alt="Category" class="img-fluid" />
+                            </div>
+                            <div class="list-categories-info">
+                                <h5>Salmon</h5>
+                                <div class="sub">
+                                    <a href="#">Fresh Salad</a>
+                                    <a href="#">Salad bags</a>
+                                    <a href="#">Celery</a>
+                                    <a href="#">Peppers</a>
+                                </div>
+                                <a href="#" class="view-all">View All</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="list-categories">
+                            <div class="img-category">
+                                <img src="./public/images/Category/fd40c4587bdd60253d224ec0331af993ce3185fb_list5.jpg"
+                                    alt="Category" class="img-fluid" />
+                            </div>
+                            <div class="list-categories-info">
+                                <h5>Sea Fish</h5>
+                                <div class="sub">
+                                    <a href="#">Milk</a>
+                                    <a href="#">Square Beds</a>
+                                    <a href="#">Round Beds</a>
+                                    <a href="#">Flat sandals</a>
+                                </div>
+                                <a href="#" class="view-all">View All</a>
+                            </div>
+                        </div>
+                        <div class="list-categories">
+                            <div class="img-category">
+                                <img src="./public/images/Category/92caa5553a5063f38c109490159d5b32363daae0_list6.jpg"
+                                    alt="Category" class="img-fluid" />
+                            </div>
+                            <div class="list-categories-info">
+                                <h5>Trousers</h5>
+                                <div class="sub">
+                                    <a href="#">Pet food</a>
+                                    <a href="#">Hawaiian Pizza </a>
+                                    <a href="#">Cheesecake</a>
+                                    <a href="#">Carrot Cake</a>
+                                </div>
+                                <a href="#" class="view-all">View All</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="list-categories">
+                            <div class="img-category">
+                                <img src="./public/images/Category/786c38a9066aa55a4c584b6b6308eea7fc0f2f3d_list.jpg"
+                                    alt="Category" class="img-fluid" />
+                            </div>
+                            <div class="list-categories-info">
+                                <h5>Laura Mercier</h5>
+                                <div class="sub">
+                                    <a href="#">Bananas</a>
+                                    <a href="#">Apples & Pears</a>
+                                    <a href="#">Berries & Cherries</a>
+                                    <a href="#">Oranges & Citrus Fruit</a>
+                                </div>
+                                <a href="#" class="view-all">View All</a>
+                            </div>
+                        </div>
+                        <div class="list-categories">
+                            <div class="img-category">
+                                <img src="./public/images/Category/1ef918a8a7f63fbd6717099c2e3de32d1320ee2a_list2.jpg"
+                                    alt="Category" class="img-fluid" />
+                            </div>
+                            <div class="list-categories-info">
+                                <h5>Nutrition</h5>
+                                <div class="sub">
+                                    <a href="#">Potatoes</a>
+                                    <a href="#">Sweet Potatoes</a>
+                                    <a href="#">Onions & Leeks</a>
+                                    <a href="#">Root Vegetables</a>
+                                </div>
+                                <a href="#" class="view-all">View All</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="list-categories">
+                            <div class="img-category">
+                                <img src="./public/images/Category/f4283e9325811e58e6633ffd8ca37838fb152f6a_list3.jpg"
+                                    alt="Category" class="img-fluid" />
+                            </div>
+                            <div class="list-categories-info">
+                                <h5>Full Miu</h5>
+                                <div class="sub">
+                                    <a href="#">Cabbages & Greens</a>
+                                    <a href="#">Lettuce & Salad bags</a>
+                                    <a href="#">Tomatoes</a>
+                                    <a href="#">Cucumber</a>
+                                </div>
+                                <a href="#" class="view-all">View All</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-content instagram-content">
+            <div class="owl-carousel owl-theme slide-instagram">
+                <div class="item">
+                    <a href="#"><img src="./public/images/img_intragram/1.jpg" alt="Instagram" class="img-fluid" /></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="./public/images/img_intragram/2.jpg" alt="Instagram" class="img-fluid" /></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="./public/images/img_intragram/3.jpg" alt="Instagram" class="img-fluid" /></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="./public/images/img_intragram/4.jpg" alt="Instagram" class="img-fluid" /></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="./public/images/img_intragram/5.jpg" alt="Instagram" class="img-fluid" /></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="./public/images/img_intragram/6.jpg" alt="Instagram" class="img-fluid" /></a>
+                </div>
+            </div>
+        </div>
+        <div class="back-top" title="Go to top"><i class="fas fa-arrow-up"></i></div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="newlester">
+            <div class="container">
+                <div class="new-group">
+                    <div class="row">
+                        <div class="title_newsletter col-12 col-md-4">
+                            <h4 class="fs-3">Sign Up For Newsletters</h4>
+                            <p class="text-black-50">
+                                Be the First to Know. Sign up for newsletter
+                                today !
+                            </p>
+                        </div>
+                        <div class="form-email col-12 col-md-4">
+                            <form action="#" method="post">
+                                <div class="input-wrap">
+                                    <input type="email" name="email" placeholder="Your email address" required />
+                                    <button type="submit" class="btn-sm-email">Sign Up</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="link-footer col-12 col-md-4">
+                            <ul>
+                                <li>
+                                    <a href="#" class="hover-green" title="Twitter"><i class="fab
+                                                fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hover-green" title="instagram"><i class="fab
+                                                fa-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hover-green" title="wifi"><i class="fas fa-wifi"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hover-green" title="Google"><i class="fab
+                                                fa-google"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hover-green" title="facebook"><i class="fab
+                                                fa-facebook-square"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hover-green" title="Youtube"><i class="fab
+                                                fa-youtube"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-info">
+                    <div class="row">
+                        <div class="footer-adress col-md-6 col-lg-3 col-12">
+                            <img src="./public/images/jena-4-responsive-prestashop-theme-logo-15556451474.jpg" alt=""
+                                class="img-fluid" />
+                            <p class="text1">
+                                <br />
+                                <span class="d-block fs-5"> Address </span>
+                                4710-4890 Breckinridge St,Fayetteville
+                            </p>
+                            <p class="text2">
+                                <span class="d-block fs-5"> Need Help?
+                                </span>
+                                Call: (+800) 345 6789 - (+877) 345 6789
+                            </p>
+                        </div>
+                        <div class="footer-link col-md-6 col-lg-3 col-12">
+                            <h6>
+                                Company
+                                <i class="fas fa-angle-down float-end
+                                        d-lg-none d-inline"></i>
+                            </h6>
+                            <ul>
+                                <li>
+                                    <a href="#" class="hover-green">Delivery</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hover-green"> About
+                                        us</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hover-green"> Contact
+                                        us</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hover-green"> Sitemap</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hover-green"> Stores</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-link col-md-6 col-lg-3 col-12">
+                            <h6>
+                                My Account
+                                <i class="fas fa-angle-down float-end
+                                        d-lg-none d-inline"></i>
+                            </h6>
+                            <ul>
+                                <li>
+                                    <a href="#" class="hover-green"> Sitemap</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hover-green"> Stores</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hover-green"> Login</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hover-green"> Sitemap</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hover-green"> Stores</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-link col-md-6 col-lg-3 col-12">
+                            <h6>
+                                Products
+                                <i class="fas fa-angle-down float-end
+                                        d-lg-none d-inline"></i>
+                            </h6>
+                            <ul>
+                                <li>
+                                    <a href="#" class="hover-green"> Prices
+                                        drop</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hover-green"> New
+                                        products </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hover-green"> Contact
+                                        us</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hover-green"> Sitemap</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hover-green"> Stores</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="copy-right-block col-sm-6 col-12 text-start  pt-2">
+                        Copyright © <a href="#" class="text-green">Posthemes</a>
+                        . All Rights Reserved
+                    </div>
+                    <div class="payment-block col-sm-6 col-12 text-sm-end text-start pt-2">
+                        <img src="./public/images/payment.png" alt="payment" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./public/js/jquery-3.6.0.min.js"></script>
+    <script src="./public/js/owl.carousel.min.js"></script>
+    <script src="./public/js/sitescript.js"></script>
+</body>
+
+</html>
